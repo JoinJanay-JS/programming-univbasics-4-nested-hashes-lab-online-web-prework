@@ -80,7 +80,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash[adding_matz]
+programmer_hash[adding_matz {:known_for => "Ruby", :languages => ["LISP", "C"]}]
     
 end
 
